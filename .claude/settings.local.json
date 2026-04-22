@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:community.m5stack.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(curl -s \"https://api.github.com/repos/m5stack/M5GFX/releases?per_page=6\")",
+      "Bash(curl -s \"https://api.github.com/repos/m5stack/M5GFX/releases/tags/0.2.20\")",
+      "Bash(curl -s \"https://api.github.com/repos/m5stack/M5GFX/commits?per_page=15&sha=master\")",
+      "Bash(curl -s \"https://api.github.com/repos/m5stack/M5GFX/commits?per_page=25&sha=develop\")",
+      "Bash(arduino-cli lib *)",
+      "Bash(cmd //c \"build.cmd --clean\")",
+      "Bash(cmd //c \"D:\\\\\\\\M5\\\\\\\\M5Tab-Poco\\\\\\\\build.cmd --clean\")",
+      "Bash(cmd //c \"D:\\\\\\\\M5\\\\\\\\M5Tab-Poco\\\\\\\\build.cmd -u -p COM15\")",
+      "Bash(curl -s \"https://api.github.com/repos/m5stack/M5GFX/commits?per_page=100&path=src/lgfx/v1/platforms/esp32p4\")",
+      "Bash(curl -s \"https://api.github.com/repos/m5stack/M5GFX/commits?per_page=100\")",
+      "Bash(mkdir -p \"D:/M5/M5Tab-MinTest\")",
+      "Read(//d/M5/**)",
+      "Bash(cmd //c \"D:\\\\\\\\M5\\\\\\\\M5Tab-MinTest\\\\\\\\build.cmd -u -p COM15\")",
+      "Bash(cmd //c \"arduino-cli compile --fqbn esp32:esp32:m5stack_tab5 --show-properties D:\\\\\\\\M5\\\\\\\\M5Tab-MinTest\")",
+      "Bash(cmd //c \"arduino-cli compile --fqbn esp32:esp32:m5stack_tab5 --show-properties D:\\\\\\\\M5\\\\\\\\M5Tab-Poco\")",
+      "Bash(cmd //c \"D:\\\\\\\\M5\\\\\\\\M5Tab-MinTest\\\\\\\\build.cmd --clean\")",
+      "Bash(cmd *)",
+      "Bash(python *)",
+      "Read(//c/Users/west/AppData/Local/Arduino15/libraries/**)",
+      "Read(//c/Users/west/AppData/Roaming/**)",
+      "Read(//c/Users/west/Documents/**)",
+      "Read(//c/Users/west/AppData/Local/Arduino15/**)",
+      "Read(//c//**)",
+      "Bash(arduino-cli config *)",
+      "Bash(./build.cmd)",
+      "Bash(./build.cmd -u -p COM15)",
+      "Bash(curl *)",
+      "Bash(grep -q \"^DONE$\" C:/Users/west/AppData/Local/Temp/claude/D--M5-M5Tab-Poco/25800976-3f5b-4bb4-a2f9-b66c2e380841/tasks/biaz8jg97.output)",
+      "Bash(awk *)"
+    ]
+  }
+}
