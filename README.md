@@ -57,6 +57,8 @@ Windows では同梱の `build.cmd` を使うのが簡単です。
 .\build.cmd
 ```
 
+引数なしで実行するとコンパイル後に COM ポートの一覧 (`comports.ps1`) を表示するので、書き込みは `.\build.cmd --upload -p COMx` の COMx をそこから選んでください。Git Bash からは `./build.sh` でも同じです。
+
 `esp32:esp32` 3.3.8 の `m5stack_tab5` variant では `BOARD_SDMMC_POWER_CHANNEL` が未定義になるため、`build.cmd` は次の追加フラグを compiler extra flags として渡します。
 
 ```text

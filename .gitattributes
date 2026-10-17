@@ -1,0 +1,2 @@
+# build.sh must keep LF even with core.autocrlf=true, or bash chokes on CR
+*.sh text eol=lf
